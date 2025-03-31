@@ -10,6 +10,6 @@
 ## Usage
 ```bash
 git clone this repo
-cd visual-impairment-assistant
+cd visual_assist
 pip install -r requirements.txt
 python main.py input/sample.jpg
