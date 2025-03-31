@@ -1,0 +1,39 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# === IDE/Settings ===
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# === Data/Models ===
+data/  # Exclude large datasets (keep samples if needed)
+*.pt
+*.pth
+*.h5
+*.zip
+
+# === Cloned Repos ===
+/BiSeNet/  # Exclude cloned repositories
+/MiDaS/
+/yolov5/
+
+# === Outputs/Logs ===
+outputs/
+logs/
+*.log
+
+# === Jupyter ===
+.ipynb_checkpoints/
+*.ipynb
